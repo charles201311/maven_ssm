@@ -33,6 +33,7 @@ public class BlogController {
 	public String list(HttpServletRequest request,Model model ,@RequestParam( defaultValue="1") Integer page,  @RequestParam(defaultValue="") String title) {
 		Integer pageSize =3;
 	   //分页助手
+		
 		 PageHelper.startPage(page, pageSize);
 		 List<Map> list = service.selectList(title);
 		 PageInfo info = new PageInfo<>(list);
