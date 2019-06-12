@@ -25,6 +25,8 @@ import com.github.pagehelper.PageInfo;
 ///远程仓库被改变
 @Controller
 public class BlogController {
+	
+	//本机服务器改变
 
 	@Resource
 	private BlogService service;
