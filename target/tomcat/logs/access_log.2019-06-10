@@ -1,0 +1,5 @@
+127.0.0.1 - - [10/Jun/2019:08:58:20 +0800] "GET /list HTTP/1.1" 200 1502 http-bio-80-exec-1 1872
+127.0.0.1 - - [10/Jun/2019:08:58:20 +0800] "GET /resource/css/mystyles.css HTTP/1.1" 200 340 http-bio-80-exec-3 11
+127.0.0.1 - - [10/Jun/2019:08:58:20 +0800] "GET /resource/js/jquery-3.0.0.min.js HTTP/1.1" 200 86341 http-bio-80-exec-2 13
+127.0.0.1 - - [10/Jun/2019:08:58:22 +0800] "GET /list?pageNum=2&title= HTTP/1.1" 200 1355 http-bio-80-exec-5 8
+127.0.0.1 - - [10/Jun/2019:08:58:27 +0800] "GET /list?title=cc HTTP/1.1" 200 1100 http-bio-80-exec-6 14
