@@ -28,6 +28,8 @@ public class BlogController {
 	
 	//本机服务器改变
 
+    //远程改变
+
 	@Resource
 	private BlogService service;
 
